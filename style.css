@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2B3E50;
+}
+
+/* Overzicht telaatjes.php */
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+.tbody {
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e4e4;
+}
+
+.telaatMelden {
+    background-color: white;
+    color: black; 
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 10px 600px 20px 600px;
+    text-align: center;
+}
+
+.telaatMelden:hover {
+    background-color: #66c2ff; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+/* telaat melden */
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.redenVeld {
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.action-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer */
+
+.pararesul {
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-weight: 550;
+}
+
+.mailto {
+    color: white;
+    font-weight: 550;
+}
+
+/* Statistieken */ 
+
+.table-container2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.table2 {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
